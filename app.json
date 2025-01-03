@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "VIRA-LAR",
+    "icon":"./imgs/LOGO.png",
+    "slug": "petshop",
+    "version": "1.0.0",
+    "splash": {
+      "image": "./imgs/tela.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "icon": "./imgs/LOGOi.png", 
+      "splash": {
+        "image": "./imgs/tela.png", 
+        "backgroundColor": "#ffffff",
+        "resizeMode": "contain"
+      }
+    },
+    "android": {
+      "icon": "./imgs/LOGOa.png", 
+      "adaptiveIcon": {
+        "foregroundImage": "./imgs/LOGOa.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "33d28f05-40aa-46bb-9301-a28656f7f20f"
+      }
+    }
+  }
+}
